@@ -1,0 +1,103 @@
+/* RESET */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family: 'Georgia', serif;
+    background:#f4f4f4;
+}
+
+/* TOPO */
+.topo{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 60px;
+    background:white;
+    border-bottom:4px solid #d7a3b2;
+}
+
+.logo img{
+    height:90px;
+}
+
+.menu a{
+    margin-left:30px;
+    text-decoration:none;
+    color:#444;
+    font-size:16px;
+    transition:0.3s;
+}
+
+.menu a:hover{
+    color:#c77c8e;
+}
+
+/* HERO */
+
+.hero{
+    height:500px;
+    background:linear-gradient(rgba(255,255,255,0.4), rgba(255,255,255,0.4)),
+               url("banner.jpg");
+    background-size:cover;
+    background-position:center;
+    border-bottom:3px solid #d7a3b2;
+
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding:0 80px;
+    gap:40px;
+}
+
+/* TEXTO */
+.hero-texto{
+    max-width:450px;
+}
+
+.hero-texto h1{
+    font-size:60px;
+    color:#b25c70;
+    font-weight:normal;
+    margin-bottom:15px;
+}
+
+.hero-texto p{
+    font-size:18px;
+    color:#555;
+    margin-bottom:25px;
+}
+
+.btn-agendar{
+    display: inline-block;
+    margin-top: 20px;
+    padding: 14px 28px;
+    background: #d8a7b1;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 30px;
+    transition: 0.3s;
+}
+
+.btn-agendar:hover{
+    background: #c48c97;
+    transform: scale(1.05);
+}
+/* IMAGEM DIREITA */
+.hero-img-right{
+    height:420px;
+    object-fit:cover;
+}
+/* TEXTO INFERIOR */
+.intro{
+    background:#efefef;
+    text-align:center;
+    padding:50px 200px;
+    font-size:22px;
+    color:#333;
+    line-height:1.6;
+}

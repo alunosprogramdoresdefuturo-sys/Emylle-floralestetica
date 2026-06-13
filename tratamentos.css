@@ -1,0 +1,104 @@
+.topo{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 60px;
+    background:white;
+    border-bottom:4px solid #d7a3b2;
+}
+
+.logo img{
+    height:90px;
+}
+
+.menu a{
+    margin-left:30px;
+    text-decoration:none;
+    color:#444;
+    font-size:16px;
+    transition:0.3s;
+}
+
+.menu a:hover{
+    color:#c77c8e;
+}
+/* SEÇÃO TRATAMENTOS */
+.tratamentos{
+    background:#f5eeee;
+    padding:60px 80px;
+    text-align:center;
+}
+
+.titulo-trat{
+    font-size:50px;
+    color:#7b7b7b;
+    margin-bottom:40px;
+    font-weight:normal;
+}
+
+/* GRID DE IMAGENS */
+.grid-trat{
+    display:grid;
+    grid-template-columns:repeat(3, 1fr);
+    gap:15px;
+}
+
+.card-trat{
+    position:relative;
+    overflow:hidden;
+}
+
+.card-trat img{
+    width:100%;
+    height:220px;
+    object-fit:cover;
+    border-radius:10px;
+}
+
+/* legenda */
+.card-trat span{
+    position:absolute;
+    bottom:10px;
+    left:15px;
+    color:white;
+    font-size:18px;
+    background:rgba(0,0,0,0.4);
+    padding:5px 12px;
+    border-radius:15px;
+}
+
+/* LISTA DE PROCEDIMENTOS */
+.lista-procedimentos{
+    background:#eee;
+    padding:50px 120px;
+}
+
+.proc{
+    margin-bottom:25px;
+}
+
+.proc h3{
+    font-size:22px;
+    margin-bottom:5px;
+}
+
+.proc p{
+    color:#444;
+}
+
+/* RESPONSIVO */
+@media(max-width:900px){
+    .grid-trat{
+        grid-template-columns:1fr 1fr;
+    }
+
+    .lista-procedimentos{
+        padding:40px;
+    }
+}
+
+@media(max-width:600px){
+    .grid-trat{
+        grid-template-columns:1fr;
+    }
+}

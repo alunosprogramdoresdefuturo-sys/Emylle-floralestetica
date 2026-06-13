@@ -1,0 +1,99 @@
+.topo{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 60px;
+    background:white;
+    border-bottom:4px solid #d7a3b2;
+}
+
+.logo img{
+    height:90px;
+}
+
+.menu a{
+    margin-left:30px;
+    text-decoration:none;
+    color:#444;
+    font-size:16px;
+    transition:0.3s;
+}
+
+.menu a:hover{
+    color:#c77c8e;
+}
+/* SEÇÃO VALORES */
+.valores{
+    background:linear-gradient(rgba(255,255,255,0.85), rgba(255,255,255,0.85)),
+               url("bg-valores.jpg");
+    background-size:cover;
+    background-position:center;
+    padding:70px 0;
+}
+
+.valores-container{
+    width:60%;
+    margin:auto;
+    text-align:center;
+}
+
+.titulo-valores{
+    font-size:55px;
+    color:#c77c8e;
+    font-weight:normal;
+}
+
+.subtitulo-valores{
+    margin-bottom:40px;
+    color:#666;
+}
+
+/* LISTA */
+.lista-valores{
+    display:flex;
+    flex-direction:column;
+    gap:20px;
+}
+
+.item-valor{
+    display:flex;
+    align-items:center;
+    gap:20px;
+    background:rgba(255,255,255,0.6);
+    padding:18px 25px;
+    border-radius:20px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.08);
+    text-align:left;
+}
+
+/* ÍCONES */
+.icone-valor{
+    font-size:28px;
+    background:#f1c7cf;
+    width:55px;
+    height:55px;
+    border-radius:50%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.item-valor h3{
+    color:#b25c70;
+    margin-bottom:5px;
+}
+
+.item-valor p{
+    color:#555;
+}
+
+/* RESPONSIVO */
+@media(max-width:900px){
+    .valores-container{
+        width:90%;
+    }
+
+    .titulo-valores{
+        font-size:40px;
+    }
+}

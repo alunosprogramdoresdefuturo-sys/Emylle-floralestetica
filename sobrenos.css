@@ -1,0 +1,73 @@
+.topo{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 60px;
+    background:white;
+    border-bottom:4px solid #d7a3b2;
+}
+
+.logo img{
+    height:90px;
+}
+
+.menu a{
+    margin-left:30px;
+    text-decoration:none;
+    color:#444;
+    font-size:16px;
+    transition:0.3s;
+}
+
+.menu a:hover{
+    color:#c77c8e;
+}
+/* SEÇÃO SOBRE NÓS */
+.sobre{
+    padding:80px 10%;
+    background:#fff;
+}
+
+.sobre-container{
+    display:flex;
+    align-items:center;
+    gap:60px;
+}
+
+.logo img{
+    height:90px;
+}
+
+/* IMAGEM */
+.sobre-img img{
+    width:420px;
+    border-radius:20px;
+    box-shadow:0 10px 25px rgba(0,0,0,0.15);
+}
+
+
+
+/* TEXTO */
+.sobre-texto{
+    max-width:520px;
+}
+
+.sobre-texto h2{
+    font-size:42px;
+    color:#b25c70;
+    margin-bottom:20px;
+    font-weight:normal;
+}
+
+.sobre-texto p{
+    font-size:18px;
+    color:#555;
+    line-height:1.7;
+    margin-bottom:18px;
+}
+
+.sobre-texto .frase{
+    color:#c77c8e;
+    font-size:20px;
+    font-weight:500;
+}
